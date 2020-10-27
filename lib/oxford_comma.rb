@@ -4,13 +4,11 @@ if array.length < 3
 else
   last_element = array.pop
   string_with_commas_only = array.join(", ")
-  puts string_with_commas_only
-  # final_element = ", and #{last_element}"
-  #
-  # finally_print = "#{strings_with_commas_only}#{final_element}"
+  final_element = ", and #{last_element}"
+  finally_print = "#{string_with_commas_only}#{final_element}"
 end
 end
 
-
+  # puts "#{string_with_commas_conly}"
 # puts last_element
 # print array
