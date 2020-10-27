@@ -7,6 +7,6 @@ else
   final_element = ", and #{last_element}"
   # puts last_element
   # print array
-  finally_print = strings_with_commas_only + final_element
+  finally_print = "#{strings_with_commas_only}#{final_element}"
 end
 end
