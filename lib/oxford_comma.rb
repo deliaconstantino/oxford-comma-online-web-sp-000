@@ -6,7 +6,7 @@ else
   string_with_commas_only = array.join(", ")
   puts string_with_commas_only
   # final_element = ", and #{last_element}"
-  # 
+  #
   # finally_print = "#{strings_with_commas_only}#{final_element}"
 end
 end
