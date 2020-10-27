@@ -6,7 +6,7 @@ def oxford_comma(array)
     # string_with_commas_only = array.join(", ")
     # final_string = "#{string_with_commas_only}, and #{last_element}"
     array.pop
-    "#{array}, and #{array.pop}"
+    "#{array.join(", ")}, and #{array.pop}"
   end
 end
 
