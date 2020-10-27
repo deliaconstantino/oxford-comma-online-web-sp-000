@@ -3,8 +3,8 @@ if array.length < 3
   string = array.join(" and ")
 else
   last_element = array.pop
-  print array
-  puts last_element
 
+  puts last_element
+  print array
 end
 end
